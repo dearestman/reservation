@@ -23,3 +23,35 @@
 - гость
     - может смотреть информацию о встречи, на которую пригласили
     - если есть права на редактирование встречи (Администратор встречи) - может ее редактировать
+
+-----User-----
+
+Сущность Role:
+    - id
+    - name
+
+Сущность User_credentials имеет следующие атрибуты:
+    - id
+    - login
+    - password
+    - role_id
+    - email
+    - full_name
+    - department_id
+    - position_id
+    - photo
+    - dop_info
+
+Сущность Department
+    - id
+    - name
+
+Сущность Position
+    - id
+    - name
+
+Сущность Department
+    - id
+    - name
+
+-----User-----
